@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /c/Users/User/Desktop/donors-management-app && npx create-next-app@latest . --typescript --tailwind --app --eslint --no-src-dir --import-alias \"@/*\" --no-git --yes 2>&1)",
+      "Bash(cd /c/Users/User/Desktop/donors-management-app && npx create-next-app@latest _tmp_next --typescript --tailwind --app --eslint --no-src-dir --import-alias \"@/*\" --no-git --yes 2>&1)",
+      "Bash(cd /c/Users/User/Desktop/donors-management-app && npx create-next-app@latest tmp-next --typescript --tailwind --app --eslint --no-src-dir --import-alias \"@/*\" --no-git --yes 2>&1)",
+      "Bash(cd /c/Users/User/Desktop/donors-management-app && cp -r tmp-next/. . && rm -rf tmp-next && ls -la 2>&1)",
+      "Bash(cd:*)",
+      "Bash(echo:*)",
+      "Bash(cmdkey:*)",
+      "Bash(cd /c/Users/User/Desktop/donors-management-app && npx next build 2>&1)"
+    ]
+  }
+}
